@@ -101,19 +101,46 @@
 .bg-image {
    height: 691.45px; 
    width: 100%;
-   display: block;
+   display: flex;
    overflow: hidden;
+   background-image: url(Content-LNC-HP/bg-image.jpg);
+   background-size: cover;
+   background-position: center;
+   align-items: center;
+   justify-content: center;
+
 }
 
-.bg-image img {
+.inner-text {
+    display: grid;
+
+}
+
+.inner-text p {
+    color: #ffffff;
+    font-size: 45px;
+    font-family: Lato, sans-serif;
+    text-align: center;
+}
+
+.inner-text p {
+    color: #ffffff;
+    font-size: 45px;
+    font-family: Lato, sans-serif;
+    text-align: center;
+}
+
+
+/* .bg-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
- }
+ } */
 
  .text1 {
-    display: block;
-    align-content: center;
-    z-index: 2;
+    /* display: flex; */
+    align-items: center;
     justify-content: center;
+    /* height: 100%;
+    width: 100%; */
  }
